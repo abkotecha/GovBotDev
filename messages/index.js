@@ -42,7 +42,7 @@ bot.on('conversationUpdate', function (message) {
             if (identity.id === message.address.bot.id) {
                 bot.send(new builder.Message()
                     .address(message.address)
-                    .text("Welcome to the GovBot for RTO related queries. Type 'Hi' if you wish to coverse."));
+                    .text("Welcome to the GovBot. Type 'Hi' if you wish to coverse."));
             }
         });
     }
