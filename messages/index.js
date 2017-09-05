@@ -1,5 +1,3 @@
-// For more information about this template visit http://aka.ms/azurebots-node-qnamaker
-
 "use strict";
 var builder = require("botbuilder");
 var botbuilder_azure = require("botbuilder-azure");
