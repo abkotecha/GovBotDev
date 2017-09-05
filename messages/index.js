@@ -32,7 +32,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: "Hmm.. Looks like I can't help you here! Could you please elaborate or rewrite?",
+                defaultMessage: "Hmm.. Looks like I can't help you here! Could you please elaborate?",
                 qnaThreshold: 0.5}
 );
 
