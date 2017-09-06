@@ -40,7 +40,7 @@ bot.on('conversationUpdate', function (message) {
             if (identity.id === message.address.bot.id) {
                 bot.send(new builder.Message()
                     .address(message.address)
-                    .text("Welcome to the Bot for Regional Transport Organization. Type 'Hi' if you wish to coverse."));
+                    .text("Welcome to the Bot service for Transport Department. Type 'Hi' if you wish to coverse."));
             }
         });
     }
